@@ -31,7 +31,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      - uses: android-actions/setup-android@v3
+      # SDK-и Android дар runner-и ubuntu аз пеш насб аст (ANDROID_HOME). Қадами
+      # android-actions/setup-android@v3 бо хатои "Failed to find package 'tools'" меафтод,
+      # бинобар ин танҳо литсензияҳоро қабул мекунем ва платформа/build-tools-ро месозем.
+      - name: Prepare Android SDK
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-34" "build-tools;34.0.0"
 
       # Gradle-ро худи CI насб мекунад (wrapper JAR дар ин repo нест, ниг. docs/BUILD_APK.md).
       - uses: gradle/actions/setup-gradle@v4
