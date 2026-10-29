@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Лого: ҳарфи P-и услубӣ бо ранги фирузагӣ. Ихтироъи худамон, бе дороии ғайр. -->
+    <path
+        android:fillColor="#FF2DD4BF"
+        android:pathData="M38,30 L58,30 Q72,30 72,44 Q72,58 58,58 L48,58 L48,78 L38,78 Z M48,39 L48,49 L57,49 Q62,49 62,44 Q62,39 57,39 Z"
+        android:fillType="evenOdd" />
+</vector>

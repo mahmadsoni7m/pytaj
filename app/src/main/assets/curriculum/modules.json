@@ -1,0 +1,112 @@
+{
+  "modules": [
+    {
+      "id": "m01",
+      "order": 1,
+      "title": "Муқаддимаи барномасозӣ",
+      "description": "Барномасозӣ чист, Python чист, аввалин барнома, print(), шарҳҳо ва ақибнишинӣ."
+    },
+    {
+      "id": "m02",
+      "order": 2,
+      "title": "Тағйирёбандаҳо ва навъҳои додаҳо",
+      "description": "Тағйирёбандаҳо, адад, сатр, булӣ, type(), табдили навъ ва input()."
+    },
+    {
+      "id": "m03",
+      "order": 3,
+      "title": "Операторҳо",
+      "description": "Арифметикӣ, муқоисавӣ, мантиқӣ, таъиноти ва дигар операторҳо."
+    },
+    {
+      "id": "m04",
+      "order": 4,
+      "title": "Сатрҳо",
+      "description": "Индекс, бурриш, методҳо, f-string, ҷустуҷӯ, ҷудокунӣ ва Unicode."
+    },
+    {
+      "id": "m05",
+      "order": 5,
+      "title": "Мантиқи шартӣ",
+      "description": "if, elif, else, шартҳои дарунӣ ва ифодаҳои булӣ."
+    },
+    {
+      "id": "m06",
+      "order": 6,
+      "title": "Даврҳо",
+      "description": "for, while, range(), break, continue, pass ва намунаҳои давр."
+    },
+    {
+      "id": "m07",
+      "order": 7,
+      "title": "Коллексияҳо",
+      "description": "Рӯйхат, tuple, маҷмӯа, луғат, мураттабкунӣ ва comprehension."
+    },
+    {
+      "id": "m08",
+      "order": 8,
+      "title": "Функсияҳо",
+      "description": "Таъриф, параметр, return, *args/**kwargs, scope, lambda ва рекурсия."
+    },
+    {
+      "id": "m09",
+      "order": 9,
+      "title": "Коркарди хатоҳо ва ислоҳи хато",
+      "description": "Намудҳои хато, traceback, try/except, raise, assert ва debugging."
+    },
+    {
+      "id": "m10",
+      "order": 10,
+      "title": "Файлҳо ва додаҳо",
+      "description": "Хондан/навиштан, with, JSON, CSV ва амалиёти бехатари файл."
+    },
+    {
+      "id": "m11",
+      "order": 11,
+      "title": "Модулҳо ва бастаҳо",
+      "description": "import, китобхонаи стандартӣ, сохтани модул ва pip."
+    },
+    {
+      "id": "m12",
+      "order": 12,
+      "title": "Барномасозии объектӣ (OOP)",
+      "description": "Синф, объект, мерос, polymorphism, dataclass ва методҳои махсус."
+    },
+    {
+      "id": "m13",
+      "order": 13,
+      "title": "Python-и миёна",
+      "description": "Итератор, генератор, декоратор, closure, regex ва ғайра."
+    },
+    {
+      "id": "m14",
+      "order": 14,
+      "title": "Асосҳои Python-и пешрафта",
+      "description": "Type hints, async/await, threading, profiling ва тест."
+    },
+    {
+      "id": "m15",
+      "order": 15,
+      "title": "Алгоритмҳо ва сохтори додаҳо",
+      "description": "Big-O, ҷустуҷӯ, мураттабкунӣ, stack, queue, дарахт ва граф."
+    },
+    {
+      "id": "m16",
+      "order": 16,
+      "title": "Таҷрибаҳои таҳияи нармафзор",
+      "description": "Clean code, PEP 8, тестҳо, Git, logging ва амният."
+    },
+    {
+      "id": "m17",
+      "order": 17,
+      "title": "Таҳияи амалии Python",
+      "description": "CLI, коркарди додаҳо, SQLite, HTTP/API ва бастабандӣ."
+    },
+    {
+      "id": "m18",
+      "order": 18,
+      "title": "Лоиҳаҳои портфолио",
+      "description": "Калкулятор, бозӣ, quiz, менеҷери баҳоҳо ва лоиҳаи ниҳоӣ."
+    }
+  ]
+}
